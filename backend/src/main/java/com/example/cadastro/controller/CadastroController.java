@@ -1,13 +1,14 @@
 package com.example.cadastro.controller;
 
-
 import com.example.cadastro.dto.PessoaRequestDto;
 import com.example.cadastro.dto.PessoaResponseDto;
 import com.example.cadastro.model.Pessoa;
 import com.example.cadastro.repository.PessoaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 import java.util.Optional;
@@ -56,4 +57,20 @@ public class CadastroController {
 
     }
 
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Object> deletePessoa(@PathVariable Long id) {
+        try {
+            if (repository.existsById(id)) {
+                repository.deleteById(id);
+                return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+            }
+            else {
+                throw  new ResponseStatusException(HttpStatus.NO_CONTENT, "Pessoa não encontrada!");
+            }
+        }
+        catch (Exception e) {
+            throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Erro ao tentar apagar o cadastro.", e);
+        }
+    }
 }
