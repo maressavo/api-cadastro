@@ -9,4 +9,4 @@ O projeto em questão é uma adpatação do construído pela Fernanda Kipper no 
 
 Na API os métodos básicos do CRUD foram implementados, porém a evolução da tela do React se dará aos poucos, pois esse projeto se trata de uma base de aprendizado para conhecimento do React.
 
-Alguns campos como telefone e data de nascimento posteriormente serão alterados para que o telefone seja mascarado para que o usuário apenas precise informar os números e a data trocada por um calendário, para que não seja necessário ao usuário informar a data manualmente.
+Alguns campos como telefone e data de nascimento posteriormente  poderão ser alterados para que o telefone seja mascarado para que o usuário apenas precise informar os números e a data trocada por um calendário, para que não seja necessário ao usuário informar a data manualmente.
