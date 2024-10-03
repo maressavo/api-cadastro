@@ -141,7 +141,10 @@ export function CreateModal({ closeModal }: ModalProps){
                             </select>
                         </div>
                     </div>
-                    <input type="submit" value="Salvar" className="btn-secondary"/>
+                    <div className="botoes">
+                        <button onClick={closeModal} className="btn-danger" >Voltar</button>
+                        <input type="submit" value="Salvar" className="btn-secondary"/>
+                    </div>
                 </form>
             </div>
         </div>     

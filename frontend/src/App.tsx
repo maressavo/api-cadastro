@@ -15,7 +15,7 @@ function App() {
 
   return (
       <div className="container">
-        <h1>Cadastro de Pessoa</h1>
+        <h1>Pessoas Cadastradas</h1>
         <div className="card-grid">
           {data?.map(pessoaData =>
             <Card 
@@ -32,7 +32,7 @@ function App() {
           )}
         </div>
         {isModalOpen && <CreateModal closeModal={handleOpenModal}/>}
-        <button onClick={handleOpenModal}>Novo cadastro</button>
+        <button className='novoCadastro' onClick={handleOpenModal}>Novo cadastro</button>
       </div>
   )
 }
