@@ -23,3 +23,27 @@ h2 {
     width: 250px;
     height: 200px;
 }
+
+.editar{
+    background-color: #3bffbe;
+    color: rgb(4, 4, 80);
+    font-weight: bold;
+    bottom: 16px;
+    right: 24px;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-style: hidden;
+}
+
+.apagar{
+    background-color: #724118;
+    color: white;
+    font-weight: bold;
+    bottom: 16px;
+    right: 24px;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-style: hidden;
+}

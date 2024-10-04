@@ -3,7 +3,7 @@ import './App.css'
 import { Card } from './components/card/card';
 import { usePessoaData } from './hooks/usePessoaData';
 import { CreateModal } from './components/create-modal/create-modal';
-import "react-datepicker/dist/react-datepicker.css";                           
+import "react-datepicker/dist/react-datepicker.css";
 
 function App() {
   const { data } = usePessoaData();
@@ -15,10 +15,11 @@ function App() {
 
   return (
       <div className="container">
-        <h1>Pessoas Cadastradas</h1>
+        <h1>Pessoa</h1>
         <div className="card-grid">
           {data?.map(pessoaData =>
             <Card 
+              id={pessoaData.id}
               nome={pessoaData.nome}
               sexo={pessoaData.sexo}
               cargo={pessoaData.cargo}

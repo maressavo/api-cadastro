@@ -20,6 +20,8 @@
     bottom: 16px;
     right: 24px;
     transition: all 0.1s linear 0.1s;
+    border-radius: 0.5em;
+    border-style: hidden;
 }
   
 .container .novoCadastro:hover {

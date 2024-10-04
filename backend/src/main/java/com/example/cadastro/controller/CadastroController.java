@@ -47,6 +47,8 @@ public class CadastroController {
             pessoa.setCargo(dados.cargo());
             pessoa.setFuncao(dados.funcao());
             pessoa.setSituacao(dados.situacao());
+            pessoa.setSexo(dados.sexo());
+            pessoa.setFoto(dados.foto());
 
             repository.save(pessoa);
             return ResponseEntity.ok(new PessoaResponseDto(pessoa));

@@ -4,17 +4,17 @@ import { PessoaData } from "../interface/PessoaData";
 
 const API_URL = 'http://localhost:8080';
 
-const postData = async (data: PessoaData): AxiosPromise => {
-    const response = axios.post(API_URL + '/cadastro/', data);
+const deleteData = async (data: PessoaData): AxiosPromise => {
+    const response = axios.delete(API_URL + '/cadastro/' + data.id);
     return response;
 };
 
 const filter: InvalidateQueryFilters = { queryKey: ['pessoa-data'] };
 
-export function usePessoaDataPost() {
+export function usePessoaDataDelete() {
     const queryClient = useQueryClient();
     const mutate = useMutation({
-        mutationFn: postData,
+        mutationFn: deleteData,
         retry: 2,
         onSuccess: () => {
             queryClient.invalidateQueries(filter)
