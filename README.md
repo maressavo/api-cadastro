@@ -14,3 +14,14 @@ Alguns campos como telefone e data de nascimento posteriormente  poderão ser al
 O CRUD completo com as operações básicas de visualização, cadastro, edição e exclusão foram implementadas.
 
 Algo desejável para o futuro é a criação de login, atribuição de acessos por usuário, dentre outras coisas para deixar os dados protegidos.
+
+![image](https://github.com/user-attachments/assets/eecdff37-6867-4298-ad2e-11fd332545b0)
+Imagem demonstrando a visualização dos dados cadastrados.
+
+![image](https://github.com/user-attachments/assets/173e378d-817f-4999-9330-6f66e482b855)
+Tela de Cadastro de nova pessoa
+
+![image](https://github.com/user-attachments/assets/a638d87d-ece7-46ae-a977-6c649c19efe2)
+Tela de Edição
+
+Como se trata de um repositório de estudo, a foto do cadastro foi configurada para ser setada ao se selecionar o sexo, por essa razão todos os cadastro do gênero escolhido terão as fotos iguais.
