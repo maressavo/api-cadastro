@@ -1,6 +1,8 @@
+# Cadastro básico de pessoas
 Este é um projeto básico de consumo de API por uma tela React, construído com o objetivo de consumir a API em Java com Spring Boot no frontend construído com React e Typescript.
 O projeto em questão é uma adpatação do construído pela Fernanda Kipper no YouTube, com instruções dividas em duas partes:
 
+# Base da Construção
 1ª [Criando Aplicação Fullstack do Zero com Java Spring e React - Parte 1: Desenvolvimento do Backend
 ](https://youtu.be/lUVureR5GqI?si=3DHXHrkSe6xdbiOv)
 
@@ -15,13 +17,38 @@ O CRUD completo com as operações básicas de visualização, cadastro, ediçã
 
 Algo desejável para o futuro é a criação de login, atribuição de acessos por usuário, dentre outras coisas para deixar os dados protegidos.
 
-![image](https://github.com/user-attachments/assets/eecdff37-6867-4298-ad2e-11fd332545b0)
+# Breve apresentação das telas iniciais
+<img src = "https://github.com/user-attachments/assets/eecdff37-6867-4298-ad2e-11fd332545b0" alt="Tela inicial demostrando os cadastros que já constam no banco de dados" width="800" heigth="700">
+
 Imagem demonstrando a visualização dos dados cadastrados.
 
-![image](https://github.com/user-attachments/assets/173e378d-817f-4999-9330-6f66e482b855)
+<img src = "https://github.com/user-attachments/assets/173e378d-817f-4999-9330-6f66e482b855" alt="Tela inicial demostrando os cadastros que já constam no banco de dados" width="800" heigth="700">
+
 Tela de Cadastro de nova pessoa
 
-![image](https://github.com/user-attachments/assets/a638d87d-ece7-46ae-a977-6c649c19efe2)
+<img src = "https://github.com/user-attachments/assets/a638d87d-ece7-46ae-a977-6c649c19efe2" alt="Tela inicial demostrando os cadastros que já constam no banco de dados" width="800" heigth="700">
+
 Tela de Edição
 
-Como se trata de um repositório de estudo, a foto do cadastro foi configurada para ser setada ao se selecionar o sexo, por essa razão todos os cadastro do gênero escolhido terão as fotos iguais.
+🧰 Como se trata de um repositório de estudo, a foto do cadastro foi configurada para ser setada ao se selecionar o sexo, por essa razão todos os cadastro do gênero escolhido terão as fotos iguais.
+
+
+## :pushpin: Tecnologias utilizadas:
+- React
+- Vite
+- Java 21
+- Typescript
+- Node.js
+- Spring Boot
+- Entre outras.
+
+  # Requisitos básicos para conseguir rodar a API e Consumi-la em React
+  - Java 21
+  - MySQL (É necessário criar um schema com o nome -> pessoa)
+  - IDEs: Intellij e VsCode
+  - Será necessário instalar Node.js na máquina;
+  - Configurar um acesso ao GitHub (recomendo usar o Git Bash e ter também instalado o Git Remote para visualização como foi a evolução do código)
+  - Conhecimento básico de manipulação de CSS, HTML e Typescript
+
+    
+
