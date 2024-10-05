@@ -3,11 +3,11 @@ Este é um projeto básico de consumo de API por uma tela React, construído com
 O projeto em questão é uma adpatação do construído pela Fernanda Kipper no YouTube, com instruções dividas em duas partes:
 
 # Base da Construção
-1ª [Criando Aplicação Fullstack do Zero com Java Spring e React - Parte 1: Desenvolvimento do Backend
-](https://youtu.be/lUVureR5GqI?si=3DHXHrkSe6xdbiOv)
+<a href="https://youtu.be/lUVureR5GqI?si=3DHXHrkSe6xdbiOv" target="_blank" style="color: blue; text-decoration: none;">Backend</a>
+</br>
+<a href="https://youtu.be/WHruc3_2z68?si=l5A-ltwio0ohz7Vp" target="_blank" style="color: blue; text-decoration: none;">Frontend</a>
 
-2ª [Criando Aplicação Fullstack do Zero - Parte 2: Desenvolvimento do Frontend com React e Typescript
-](https://youtu.be/WHruc3_2z68?si=l5A-ltwio0ohz7Vp)
+
 
 Na API os métodos básicos do CRUD foram implementados, porém a evolução da tela do React se dará aos poucos, pois esse projeto se trata de uma base de aprendizado para conhecimento do React.
 
@@ -34,15 +34,15 @@ Tela de Edição
 
 
 ## :pushpin: Tecnologias utilizadas:
-- React
-- Vite
-- Java 21
-- Typescript
-- Node.js
-- Spring Boot
-- Entre outras.
+  - React
+  - Vite
+  - Java 21
+  - Typescript
+  - Node.js
+  - Spring Boot
+  - Entre outras.
 
-  # Requisitos básicos para conseguir rodar a API e Consumi-la em React
+# Requisitos básicos para conseguir rodar a API e Consumi-la em React
   - Java 21
   - MySQL (É necessário criar um schema com o nome -> pessoa)
   - IDEs: Intellij e VsCode
